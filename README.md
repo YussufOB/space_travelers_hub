@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+Token: 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
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
