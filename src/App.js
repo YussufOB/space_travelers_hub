@@ -5,9 +5,6 @@ import Rocket from './components/pages/Rockets/Rocket';
 import Profile from './components/pages/Profiles/Profile';
 import NoMatch from './components/pages/NoMatchs/NoMatch';
 
-
-
-
 const App = () => (
   <Router>
     <NavBar />

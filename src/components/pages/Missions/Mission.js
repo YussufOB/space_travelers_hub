@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMissions } from '../../../redux/missions/missionsReducer';
 import MissionCard from './MissionCard';
+import './MissionCard.css';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions);
@@ -13,7 +14,6 @@ const Missions = () => {
 
   return (
     <div>
-      <h2>MISSIONS</h2>
       <table>
         <thead>
           <th>Mission</th>

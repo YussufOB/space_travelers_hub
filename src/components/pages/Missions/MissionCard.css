@@ -1,0 +1,31 @@
+td {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+
+}
+
+th {
+    border-bottom: 1px solid;
+    border-right:1px solid; ;
+}
+
+.memberRow {
+    width: 8rem;
+    text-align: center;
+}
+
+.memberRow button {
+    border: none;
+    border-radius: 5px;
+   color: #fff;
+    background: rgb(52, 51, 51);
+}
+
+ .joinRow {
+     width: 8rem;
+     text-align: center;
+ }
+
+ .joinRow button {
+padding: 5px;
+ }
