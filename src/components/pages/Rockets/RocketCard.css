@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Slab:wght@100&display=swap');
+
+.rocketImage {
+    width: 15rem;
+}
+
+.rocketDiv {
+    display: flex;
+    gap: 20px;
+   padding: 10px;
+}
+
+.rocketBtn {
+    padding: 8px;
+    color: #fff;
+    background: rgb(7, 90, 244);
+    outline:5rem;
+    border: none;
+    border-radius: 3px;
+}
