@@ -1,9 +1,11 @@
 import axios from 'axios';
 
-const GET_ROCKETS = 'GET_ROCKETS';
+const GET_ROCKETS = 'space-traveleres/redux/GET_ROCKETS';
+const RESERVE_ROCKET = 'space-traveleres/redux/RESERVE_ROCKET';
 const API = 'https://api.spacexdata.com/v3/rockets';
 
 const getRockets = (payload) => ({ type: GET_ROCKETS, payload });
+export const reserveRocket = (id) => ({ type: RESERVE_ROCKET, id });
 
 export const fetchRockets = () => async (dispatch) => {
   const response = await axios.get(API);
@@ -24,8 +26,16 @@ export const fetchRockets = () => async (dispatch) => {
 
 const rocketReducer = (state = [], action) => {
   switch (action.type) {
-    case GET_ROCKETS:
+    case GET_ROCKETS: {
       return action.payload;
+    }
+    case RESERVE_ROCKET: {
+      const newState = state.map((rocket) => {
+        if (rocket.id !== action.id) return rocket;
+        return { ...rocket, reserved: !rocket.reserved };
+      });
+      return newState;
+    }
     default:
       return state;
   }
