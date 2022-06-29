@@ -16,7 +16,6 @@ const App = () => (
       <Route path="/*" element={<NoMatch />} />
     </Routes>
   </Router>
-
 );
 
 export default App;

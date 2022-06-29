@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const GET_ROCKETS = 'space-traveleres/redux/GET_ROCKETS';
-const RESERVE_ROCKET = 'space-traveleres/redux/RESERVE_ROCKET';
+const GET_ROCKETS = 'space-travelers/redux/GET_ROCKETS';
+const RESERVE_ROCKET = 'space-travelers/redux/RESERVE_ROCKET';
 const API = 'https://api.spacexdata.com/v3/rockets';
 
 const getRockets = (payload) => ({ type: GET_ROCKETS, payload });
@@ -16,7 +16,7 @@ export const fetchRockets = () => async (dispatch) => {
     rocketList.push({
       id: rocket.id,
       rocket_name: rocket.rocket_name,
-      descrption: rocket.descrption,
+      description: rocket.description,
       flickr_images: rocket.flickr_images[0],
       reserved: false,
     });
