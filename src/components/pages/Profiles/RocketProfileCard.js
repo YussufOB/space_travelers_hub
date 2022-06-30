@@ -16,11 +16,8 @@ const RocketProfileCard = ({ reservedRockets }) => (
 );
 
 RocketProfileCard.propTypes = {
-  reservedRockets: PropTypes.shape({
-    id: PropTypes.string,
-    map: PropTypes.func,
-    rocket_name: PropTypes.string,
-  }).isRequired,
+  reservedRockets: PropTypes
+    .arrayOf(PropTypes.oneOfType([PropTypes.number, PropTypes.string])).isRequired,
 };
 
 export default RocketProfileCard;

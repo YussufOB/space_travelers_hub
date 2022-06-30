@@ -16,11 +16,8 @@ const MissionProfileCard = ({ joinedMissions }) => (
 );
 
 MissionProfileCard.propTypes = {
-  joinedMissions: PropTypes.shape({
-    mission_id: PropTypes.string,
-    map: PropTypes.func,
-    mission_name: PropTypes.string,
-  }).isRequired,
+  joinedMissions: PropTypes
+    .arrayOf(PropTypes.oneOfType([PropTypes.number, PropTypes.string])).isRequired,
 };
 
 export default MissionProfileCard;

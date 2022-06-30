@@ -16,10 +16,12 @@ const Missions = () => {
       <h2>MISSIONS</h2>
       <table>
         <thead>
-          <th>Mission</th>
-          <th>Description</th>
-          <th>Status</th>
-          <th>Nill</th>
+          <tr>
+            <th>Mission</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th> </th>
+          </tr>
         </thead>
         <tbody>
           {
