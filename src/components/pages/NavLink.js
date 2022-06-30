@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { spaceIcon } from './assets/spaceIcon.png';
+import { spaceIcon } from '../assets/spaceIcon.png';
 
 const NavBar = () => (
   <nav>
