@@ -1,16 +1,8 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchMissions } from '../../../redux/missions/missionsReducer';
+import { useSelector } from 'react-redux';
 import MissionCard from './MissionCard';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(fetchMissions());
-  }, []);
-
   return (
     <div>
       <h2>MISSIONS</h2>
@@ -19,7 +11,7 @@ const Missions = () => {
           <tr>
             <th>Mission</th>
             <th>Description</th>
-            <th>Status</th>
+            <th className="status">Status</th>
             <th> </th>
           </tr>
         </thead>
