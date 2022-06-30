@@ -11,9 +11,13 @@ table {
 }
 th {
   border: 1px solid;
+  background: #fff;
 
 }
 
+.progress-circle {
+  width: 60px;
+}
 .member {
   width: 8rem;
   padding: 10px;
