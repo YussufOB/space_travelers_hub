@@ -5,10 +5,6 @@
   justify-content: center;
 }
 
-td {
-  border: 0;
-}
-
 .missionprofile,
 .rocketProfile {
   width: 35rem;

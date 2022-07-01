@@ -2,7 +2,7 @@
 > In this task, we work with the real live data from the SpaceX API. The task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 ## Video Presentation
 
-[Watch the presentation of the projet here](https://drive.google.com/file/d/1NL8-fK5F-EmGy62qSJd6dITk4XcZyBrS/view?usp=sharing)
+[Watch the presentation of the projet here](https://drive.google.com/file/d/1ASXBwTJj5aSFEspb_UrVtKuNf-rgC3kT/view?usp=sharing)
 
 ## Built With
 
@@ -10,6 +10,9 @@
 - React
 - Redux
 - Jest
+
+## Live Link
+[Live](https://62bf005b8c137670e0d0d22c--coruscating-speculoos-c81498.netlify.app/)
 
 ## U.I
 
