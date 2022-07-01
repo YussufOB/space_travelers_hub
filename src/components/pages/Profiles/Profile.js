@@ -1,4 +1,4 @@
-import { useSelector } from 'react-redux/es/exports';
+import { useSelector } from 'react-redux';
 import MissionProfileCard from './MissionProfileCard';
 import RocketProfileCard from './RocketProfileCard';
 
