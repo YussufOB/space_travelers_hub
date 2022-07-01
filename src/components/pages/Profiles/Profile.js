@@ -11,13 +11,13 @@ const Profile = () => {
 
   return (
     <div className="profile">
-      <div className="container">
+      <div>
         <h2>My Rockets</h2>
-        <RocketProfileCard reservedRockets={reservedRockets} id="exht" />
+        <RocketProfileCard reservedRockets={reservedRockets}/>
       </div>
-      <div className="container">
+      <div>
         <h2>My Missions</h2>
-        <MissionProfileCard joinedMissions={joinedMissions} id="exht" />
+        <MissionProfileCard joinedMissions={joinedMissions} />
       </div>
     </div>
   );

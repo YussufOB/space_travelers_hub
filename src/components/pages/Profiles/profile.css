@@ -1,8 +1,8 @@
 .profile {
   display: flex;
-  justify-content: space-around;
-  background-color: aqua;
+  gap: 10px;
   width: 100%;
+  justify-content: center;
 }
 
 td {
@@ -11,9 +11,10 @@ td {
 
 .missionprofile,
 .rocketProfile {
+  width: 35rem;
+  padding: 8px;
   background: #fff;
-  width: 2%;
-  border: 0;
+  border: 1px inset;
 }
 
 .profile h2 {

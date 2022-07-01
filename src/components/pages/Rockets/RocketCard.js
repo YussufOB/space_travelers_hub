@@ -12,13 +12,13 @@ const RocketCard = ({ rocket }) => {
       <div>
         <h3>{rocket.rocket_name}</h3>
         <p className={(rocket.reserved ? 'reserve' : '')}>
-          {rocket.reserved && (<span>Reserved!</span>)}
+          {rocket.reserved && (<span className="reserveSpan">Reserved!</span>)}
           {rocket.description}
         </p>
         <button
           type="button"
           onClick={() => dispatch(reserveRocket(rocket.id))}
-          className={(rocket.reserved ? 'reserve' : 'rocketBtn')}
+          className={(rocket.reserved ? 'reserveBtn' : 'rocketBtn')}
         >
           {(rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket')}
         </button>

@@ -13,7 +13,7 @@
 
 .rocketBtn {
   width: 8rem;
-  padding: 5px;
+  padding: 8px;
   color: #fff;
   background: rgb(7, 90, 244);
   outline: 5rem;
@@ -21,6 +21,12 @@
   border-radius: 3px;
 }
 
-.reserve {
+.reserveBtn {
   padding: 5px;
+}
+
+.reserveSpan {
+  background: rgb(6, 155, 248);
+  color: #fff;
+  border-radius: 5px;
 }
