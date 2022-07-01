@@ -1,16 +1,16 @@
 .profile {
-    display: flex;
-    gap: 5px;
-    width: 100%;
-    padding: 5px 20px;
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  padding: 5px 20px;
 }
 
 .missionprofile,
 .rocketProfile {
-    background: #fff;
-    width: 2%;
+  background: #fff;
+  width: 2%;
 }
 
 .profile h2 {
-    margin-left: 2px;
+  margin-left: 2px;
 }
