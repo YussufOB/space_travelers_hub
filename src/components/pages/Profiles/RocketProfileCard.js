@@ -7,7 +7,7 @@ const RocketProfileCard = ({ reservedRockets }) => (
       {
         reservedRockets.map((rocket) => (
           <tr key={rocket.id}>
-            <td>{rocket.rocket_name}</td>
+            <td className="rocketProfile">{rocket.rocket_name}</td>
           </tr>
         ))
       }

@@ -1,6 +1,7 @@
 import { useSelector } from 'react-redux';
 import MissionProfileCard from './MissionProfileCard';
 import RocketProfileCard from './RocketProfileCard';
+import './profile.css';
 
 const Profile = () => {
   const rockets = useSelector((state) => state.rockets);
@@ -9,7 +10,7 @@ const Profile = () => {
   const joinedMissions = missions.filter((mission) => mission.reserved === true);
 
   return (
-    <div>
+    <div className="profile">
       <div>
         <h2>My Rockets</h2>
         <RocketProfileCard reservedRockets={reservedRockets} />

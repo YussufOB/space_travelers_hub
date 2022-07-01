@@ -1,24 +1,31 @@
-nav img {
-  width: 60px;
+.progress-circle {
+  width: 20px;
 }
 
 nav {
   display: flex;
   padding: 1rem 2rem;
-
-  /* justify-content: space-between; */
   border-bottom: 1px solid;
 }
 
-nav ul {
-  display: flex;
+.links {
+  text-align: end;
+  justify-content: flex-end;
+  width: 80%;
+
+}
+
+.links ul {
   gap: 10px;
   list-style-type: none;
-  margin-left: 40rem;
+  display: flex;
+justify-content: flex-end;
 }
 
 ul li a {
   text-decoration: none;
+  justify-content: end;
   font-size: 16px;
+  text-align: end;
   color: blue;
 }

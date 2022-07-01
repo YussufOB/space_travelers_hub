@@ -7,7 +7,7 @@ const MissionProfileCard = ({ joinedMissions }) => (
       {
         joinedMissions.map((mission) => (
           <tr key={mission.mission_id}>
-            <td>{mission.mission_name}</td>
+            <td className="missionprofile">{mission.mission_name}</td>
           </tr>
         ))
       }
