@@ -13,7 +13,7 @@ const Profile = () => {
     <div className="profile">
       <div>
         <h2>My Rockets</h2>
-        <RocketProfileCard reservedRockets={reservedRockets}/>
+        <RocketProfileCard reservedRockets={reservedRockets} />
       </div>
       <div>
         <h2>My Missions</h2>
